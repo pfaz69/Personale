@@ -1,0 +1,85 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+X-Account-Key: account7
+X-UIDL: UID12444-1604584457
+X-Account-Key: account1
+X-UIDL: 1588497931.20012.NFSServer1,S=4198
+Return-Path: <francescopetracchini@gmail.com>
+Delivered-To: paolo.fazzini@iia.cnr.it
+Received: (qmail 20009 invoked by uid 509); 3 May 2020 09:25:31 -0000
+Received: from 150.146.204.59 by NFSServer1 (envelope-from <francescopetracchini@gmail.com>, uid 501) with qmail-scanner-1.25-st-qms 
+ (spamassassin: 3.3.1.  
+ Clear:RC:1(150.146.204.59):. 
+ Processed in 0.006619 secs); 03 May 2020 09:25:31 -0000
+Received: from spamfilter.rm.cnr.it ([150.146.204.59])
+          (envelope-sender <francescopetracchini@gmail.com>)
+          by smtp.srt.cnr.it (qmail-ldap-1.03) with SMTP
+          for <paolo.fazzini@iia.cnr.it>; 3 May 2020 09:25:31 -0000
+Received: from localhost (unknown [127.0.0.1])
+	by SpamFilter.rm.cnr.it (Postfix) with ESMTP id 10E64100C87
+	for <paolo.fazzini@iia.cnr.it>; Sun,  3 May 2020 09:25:31 +0000 (UTC)
+Received: from SpamFilter.rm.cnr.it ([127.0.0.1])
+ by localhost (SpamFilter.rm.cnr.it [127.0.0.1]) (amavisd-maia, port 10024)
+ with ESMTP id 19834-01 for <paolo.fazzini@iia.cnr.it>;
+ Sun,  3 May 2020 11:25:30 +0200 (CEST)
+Received: from mail-wr1-f49.google.com (mail-wr1-f49.google.com [209.85.221.49])
+	by SpamFilter.rm.cnr.it (Postfix) with ESMTP id 806CF100C66
+	for <paolo.fazzini@iia.cnr.it>; Sun,  3 May 2020 11:25:30 +0200 (CEST)
+Received: by mail-wr1-f49.google.com with SMTP id s8so6907068wrt.9
+        for <paolo.fazzini@iia.cnr.it>; Sun, 03 May 2020 02:25:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=content-transfer-encoding:from:mime-version:date:subject:message-id
+         :to;
+        bh=GgAbQBr8zw4dQb2U87pv9KOPKnAFgt5X3jjMSUsJV50=;
+        b=AcGva80YMku+RqUjROgh6f9kkc0uBRobm2bGIXKH+cX3rEmzGkx3St7o925zqHAjHx
+         sFz0vkXMAdDeXpwNZ1lmKq00JVtcVVwwEskYzIPNlB/qCaROcBqVot2oacipkN+7/oai
+         P9NBzlsHSA7tLWJjEroC528xf7d4jw5QtnSuswhJ86bWOW9eTbqZqOfY5DwwjzhoL80y
+         l0SQhFKIeeg2cWwDmUyLnH+nmihDCu6WAmeRhpKbSSZQcgHwesTlNfC80CpWD+HUmKAe
+         7LzPOG0A7MUx1h3D1NX8qCPWAYGR87vInkh1BMkf4EmcKpkKvscpnp1KB6LUyrWXiKhq
+         JXvQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:content-transfer-encoding:from:mime-version:date
+         :subject:message-id:to;
+        bh=GgAbQBr8zw4dQb2U87pv9KOPKnAFgt5X3jjMSUsJV50=;
+        b=FTGL1R0GKsuG8VUUzeSJg0aYnVi/H/4Tlys6108I+JLoV4+G6wbwwpul2tiXAwzLFv
+         wbb1oXcLMWKxVti1UKnOqU3aL+B38AJ3mK2TlyS50MM/o25C7UPUiZVZKn7j0DhX7he3
+         9xWpNXfbtk2uTTl0Z9RFjTWQsUupNYpqisT71SshDQH96PKEb3I9aqY1lF8NcIAK3fnC
+         vUd+qDNC7nWe0mlB5tN5XsgDSR3kn1zbh/oS9FerSSrdEzsZ+kvDLXD4jG2aDW448o09
+         Kx2CW41D9C+bGaifKqmnOWFMgp4lfroA2QuAPrieZxgHtZ2nosuasEi6gaYe2LeOAkQ9
+         N4Dw==
+X-Gm-Message-State: AGi0PuYpiSLgTRpoa6rB41Hm37vjLtLXBO7Xg+FiU8NKpA+2V307MAi/
+	ymx8DYUrwnMJ1MbpxlgH6lk=
+X-Google-Smtp-Source: APiQypKV020W3grO8ktekV9VZ52jKiE1oofc4g1zoeBEIcInSACDSlXh8hoT33pbt4YVAmSaimrHaw==
+X-Received: by 2002:a5d:6646:: with SMTP id f6mr12927557wrw.318.1588497929876;
+        Sun, 03 May 2020 02:25:29 -0700 (PDT)
+Received: from [10.222.149.177] (mob-5-90-151-177.net.vodafone.it. [5.90.151.177])
+        by smtp.gmail.com with ESMTPSA id s18sm14347150wra.94.2020.05.03.02.25.29
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sun, 03 May 2020 02:25:29 -0700 (PDT)
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+From: Francesco Petracchini <francescopetracchini@gmail.com>
+Mime-Version: 1.0 (1.0)
+Date: Sun, 3 May 2020 11:25:28 +0200
+Subject: Intelligenza artificiale 
+Message-Id: <72FF6B4E-4F58-4B36-89D1-4E7371A2E123@gmail.com>
+To: Luciano De Propris <depropris.luciano@gmail.com>,
+ Paolo Fazzini <paolo.fazzini@iia.cnr.it>
+X-Mailer: iPhone Mail (17D50)
+X-Virus-Scanned: Maia Mailguard 1.0.2c
+
+Ciao luciano come stai?
+Ti scrivo con un cc mio collega Paolo Fazzini che gestisce il gruppo di inte=
+lligenza artificiale.
+Ti scrivo per esplorare la possibilit=C3=A0 di collaborazione fra noi e i tu=
+oi studenti sul tema.
+Saremmo disposti a finanziare eventualmente delle persone capaci di portare a=
+vanti lavori con noi sul tema.
+Cosa ne pensi?
+Percorribile?
+Ciao a presto
+Francesco
+Inviato da iPhone=
