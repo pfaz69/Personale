@@ -1,0 +1,9 @@
+Dear Sir/Madam,
+I noticed your job offer on Linkedin and I thought to apply as:
+- I'm very passionate about research, especially machine learning;
+- I've got experience as project manager;
+- I have been working on Earth Observation. I've recently published a paper on machine learning and Sentinel data, please see my enclosed CV;
+- I'm presently working on time series forecasting with respect to a project to analyze how the climate affects the release of pollutants in polar areas.
+I would be very interested in discussing further these topics, should you find my CV suitable for your present needs.
+Thanks,
+Paolo Fazzini.
